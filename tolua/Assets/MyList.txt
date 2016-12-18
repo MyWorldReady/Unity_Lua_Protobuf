@@ -1,0 +1,31 @@
+function Exist2(v)
+	return v == 2
+end
+
+function IsEven(v)
+	return v % 2 == 0
+end
+
+function NotExist(v)
+	return false
+end
+
+function Compare(a, b)
+	if a > b then 
+		return 1
+	elseif a == b then
+		return 0
+	else
+		return -1
+	end
+end
+
+function Test(list, list1)        
+	print('++++++++++++++++++++++++++++++')
+	print(list1[1].name)
+	--[[for i=1,len do
+		print(list1[i-1].name)
+	end]]
+	print('list Clear not count is '..list1.Count)
+	print('--------------------------------------')
+end
